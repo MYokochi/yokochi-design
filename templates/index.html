@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ section.title }}
+{% endblock %}
+
+{% block content %}
+<nav class="nav-bar">
+	<a href="/">
+		{{ load_data(path="static/assets/logo.svg") | safe }}
+	</a>
+	<div>
+		<a href="/" class="selected">Work</a>
+	</div>
+</nav>
+<div class="hero">
+	<img src="assets/avatar.webp" class="avatar" width="auto" height="auto">
+	<div class="content">
+		{{ section.content | safe }}
+	</div>
+</div>
+{% for page in section.pages %}
+<a class="card" type="button" href="{{ page.permalink }}">
+	<img src="{{ page.permalink }}/thumbnail.webp" class="thumbnail">
+	<div class="container">
+		<div>
+			<h2>{{ page.title }}</h2>
+			<p>{{ page.description }}</p>
+		</div>
+		<div class="card-button">View case study
+			{{ load_data(path="static/assets/forward.svg") | safe }}
+		</div>
+	</div>
+</a>
+{% endfor %}
+{% endblock content %}

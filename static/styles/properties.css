@@ -1,0 +1,53 @@
+:root {
+	--navigation-width: 200px;
+	--content-max-width: 720px;
+	--animation-duration: 0.3s;
+	--tiny: 2px;
+	--small: 4px;
+	--medium: 8px;
+	--large: 16px;
+	--super: 24px;
+}
+
+@media (prefers-reduced-motion) {
+	:root { --animation-duration: 0s; }
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--primary: #080A0E;
+		--secondary: #1E212B;
+		--subdued: #555964;
+		--mark: #AEB1B9;
+		--accent: #633DCC;
+		--accentHover: #825DE8;
+		--background: #FCFDFF;
+		--surface: #ffffff;
+		--accentBackground: #F7F4FC;
+		--stroke: #ECEDF1;
+		--shadow: 0px 2px 12px #cccccc;
+	}
+}
+@media (prefers-color-scheme: dark) {
+	:root {
+		--primary: #FCFDFF;
+		--secondary: #ECEDF1;
+		--subdued: #AEB1B9;
+		--mark: #90949D;
+		--accent: #C2B2EE;
+		--accentHover: #D8CEF5;	
+		--background: #1D1E24;
+		--surface: #292B33;
+		--accentBackground: #150A33;
+		--stroke: #393C47;
+		--shadow: 0px 0px 2px #606060;
+	}
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("/fonts/poppins.oft") format("truetype");
+	font-weight: 100 900;
+	font-stretch: -50% 200%;
+	font-style: normal;
+}

@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ page.title }}
+{% endblock %}
+
+{% block heading %}
+{{ section.title }}
+{% endblock %}
+
+{% block content %}
+<nav class="back">
+	<a type="button" class="button" href="/">
+		{{ load_data(path="static/assets/back.svg") | safe }}
+		&nbsp;Back to work
+	</a>
+</nav>
+<div class="content">
+	<h1>{{ page.title }}</h1>
+	<p class="subtitle">{{ page.description }}</p>
+	<p class="details">
+		<em>Role:</em> {{ page.extra.role }}<br>
+		<em>Timeline:</em> {{ page.extra.timeline }}
+	</p>
+	{{ page.content | safe }}
+</div>
+{% if page.higher %}
+<div class="link-card-container">
+	<a class="link-card" type="button" href="{{ page.higher.permalink }}">
+		<img src="{{ page.higher.permalink }}/thumbnail.webp" class="thumbnail" width="auto" height="auto">
+		<div class="container">
+			<h3>{{ page.higher.title }}</h3>
+			<div class="card-button">
+				Next case study&nbsp;
+				{{ load_data(path="static/assets/forward.svg") | safe }}
+			</div>
+		</div>
+	</a>
+</div>
+{% endif %}
+
+{% endblock content %}
