@@ -81,7 +81,3 @@ Designing a global search was an opportunity for me to learn about integrating d
 ## Next Steps
 
 To further refine the search feature we'll be gathering feedback from a select group of customers through beta testing. We plan to analyze usage data and user feedback to identify areas for improvement.
-
-## Conclusion
-
-The federated search feature in OneX significantly enhances productivity by providing a seamless, unified search experience across multiple enterprise services. By focusing on user needs, following established design patterns, and collaborating closely with engineers, we developed a robust solution that simplifies information retrieval in the digital workplace.
