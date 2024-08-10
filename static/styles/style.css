@@ -17,12 +17,20 @@ em {
     color: var(--accent);
     font-style: normal;
     font-weight: 700;
+    letter-spacing: 5%;
 }
 
 p {
     line-height: 1.8em;
     color: var(--primary);
-    font-size: 1.2em;
+}
+
+ul {
+    font-size: 1.1em;
+}
+
+li {
+    margin: 16px 0;
 }
 
 svg {
@@ -36,7 +44,7 @@ svg {
 }
 
 .subtitle {
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: var(--secondary);
 }
 
@@ -116,7 +124,7 @@ svg {
     h5,
     h6 {
         margin-bottom: 0px;
-        line-height: 1.3em;
+        line-height: 1.35em;
         font-weight: 700;
         color: var(--secondary);
     }
@@ -149,10 +157,8 @@ svg {
 
     blockquote {
         inset: var(--medium);
-        font-size: 1.2em;
-        line-height: 1.8em;
         background-color: var(--accentBackground);
-        padding: 32px;
+        padding: 16px 32px;
         border-radius: var(--large);
     }
 
@@ -238,7 +244,7 @@ svg {
     text-decoration: none;
     cursor: pointer;
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .button {
