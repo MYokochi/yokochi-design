@@ -4,6 +4,11 @@ a {
     transition: color var(--animation-duration);
 }
 
+.cta {
+    text-decoration: underline;
+    color: var(--accent);
+}
+
 body {
     color: var(--primary);
     background-color: var(--background);
@@ -213,6 +218,13 @@ svg {
     object-fit: cover;
 }
 
+.cover {
+    height: 260px;
+    width: max-content;
+    object-fit: fill;
+    object-position: top;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -285,11 +297,11 @@ svg {
     }
 
     p {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     .subtitle {
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
 
     .back {
@@ -304,6 +316,9 @@ svg {
 
     .thumbnail {
         max-width: 100%;
+    }
+    .cover {
+        height: 190px;
     }
 
     .hero {

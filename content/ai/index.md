@@ -5,17 +5,12 @@ date: 2024-01-03
 extra:
   role: Product Designer
   timeline: November 2023 - April 2024
+  topics: Workshop Facilitation, Usability Testing, Prototyping, AI
 ---
 
-![Illustration](illustration.webp)
+## Overview
 
-In the midst of the AI gold rush, the agency I worked in found itself in a transition phase. We aimed to shift from offering design and development services to developing and licensing our own product. This sparked a new direction, driven by the idea of creating AI-powered creator tools.
-
-My team was tasked to reimagine the online shopping experience of custom-made or customizable products, through conversation. This is what we learned from our early experiments, using AI to help users create unique products online.
-
-## Why custom products?
-
-The agency had built a few 3D product configurators for clients. These tools simplify the sales process for companies selling customizable products, such as kitchen ranges, garage cabinets or made-to-order pillows, by allowing users to specify their preferences online.
+As an agency, we had built several 3D product configurators for clients. These tools simplify the sales process for companies selling customizable products, such as kitchen ranges, garage cabinets or made-to-order pillows, by allowing users to specify their preferences online.
 
 ![Before](before.webp)
 
@@ -23,13 +18,15 @@ The agency had built a few 3D product configurators for clients. These tools sim
 – Example of a kitchen configurator
 ```
 
-However, feedback from clients indicated that these configurators were too complex and difficult to use. We needed a solution.
+## Intro
 
-This case study covers our first AI implementation in the kitchen configurator for L’Atelier Paris. During this partnership, we explored ways in which to use this new technology to improve the online configuration experience. Our goal was to learn from this initiative to inform the product direction.
+We wanted to explore ways in which AI could be used to enhance the online configuration experience. My team was tasked to reimagine the online shopping experience of custom-made or customizable products, through conversation. This is what we learned from our early experiments, using AI to help users create unique products online.
 
-## How it started
+![Illustration](illustration.webp)
 
-Our CEO hypothesized that using a conversational interface would simplify the experience. At this stage we didn't know if it would be possible to integrate a LLM (Large Language Model) in the context of 3D product configurators. My team created a basic chatbot for the kitchen configurator. We then asked users interact with it and customize various aspects of their kitchen range.
+## Process
+
+At first, we didn't know if it would be possible to integrate a LLM (Large Language Model) in the context of 3D product configurators. My team created a proof of concept, a basic chatbot for the L'Atelier kitchen configurator.
 
 <video autoplay muted playsinline loop>
 <source src="poc.mp4" type="video/mp4">
@@ -56,8 +53,8 @@ I worked together with the UX Researcher to conduct usability testing on the ear
 
 ## Creating a desirable experience
 
-Following the proof of concept, our aim was to develop a desirable AI experience, starting with the kitchen configurator.
-Simplifying the experience was crucial since our primary users were older, wealthy Americans. Additionally, architects and designers at physical showrooms used the tool to create quick proposals during client appointments.
+Following the proof of concept, our aim was to develop a desirable AI experience.
+Simplifying the process was crucial since our primary users were older, wealthy Americans. Additionally, architects and designers at physical showrooms used the tool to create quick proposals during client appointments.
 
 ![Kitchen](kitchen.webp)
 
@@ -117,7 +114,7 @@ In the meantime, we continued exploring more contextual approaches that would be
 </video>
 
 ```
-– A prototype I created to test a contextual approach.
-As the user navigates, the suggestions
+– Prototype I created to test the contextual approach.
+As the user interacts with the app, suggestions
 adapt to their actions.
 ```

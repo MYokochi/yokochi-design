@@ -16,13 +16,16 @@
 	</a>
 </nav>
 <div class="content">
+	<img src="{{ page.permalink }}/thumbnail.webp" class="cover">
 	<h1>{{ page.title }}</h1>
 	<p class="subtitle">{{ page.description }}</p>
 	<p class="details">
 		<em>Role:</em> {{ page.extra.role }}<br>
-		<em>Timeline:</em> {{ page.extra.timeline }}
+		<em>Timeline:</em> {{ page.extra.timeline }}<br>
+		<em>Topics:</em> {{ page.extra.topics }}
 	</p>
 	{{ page.content | safe }}
+	<h2>Interested in diving deep into the process? <a class="cta" href="https://www.linkedin.com/in/margarida-yokochi/" target="_blank">Get in touch</a></h3>
 </div>
 {% if page.higher %}
 <div class="link-card-container">

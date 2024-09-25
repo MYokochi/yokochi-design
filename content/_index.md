@@ -2,6 +2,7 @@
 title: Yokochi Design
 sort_by: date
 ---
-# 👋 Hey! I’m Margarida. I’m a Product Designer Working on *AI* Conversational Experiences.
+# 👋 Hey! I’m Margarida,
 
-As a designer, I value the opportunity to take on big challenges and think deeply about problems.
+A Product Designer who loves working closely with teams to bring early-stage ideas to life.
+From concept to launch, I design experiences that turn bold ideas into real, user-focused products.
